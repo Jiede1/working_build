@@ -5,12 +5,14 @@ Created on Fri Jan 19 11:40:34 2018
 @author: pangmingyu
 """
 
+'''为目录的子目录下的所有数据文件生成图像并保存'''
+
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
 
 dir = 'D:\RichStone_Work\data'
-list = os.listdir(dir)
+list = os.listdir(dir)  #查看目录下的子目录和文件
 k=58
 df=[]
 for i in range(k):
